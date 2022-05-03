@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.EventListFragment"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp">
+
+    <!--<SearchView
+        android:id="@+id/txt_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="16dp"
+        android:paddingTop="6dp"
+        android:layout_marginBottom="3dp"
+        style=""/>-->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Próximamente"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cercanos"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gratuitos"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pagos"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hoy"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Esta Semana"
+                android:backgroundTint="@color/fondoBtn"
+                android:textColor="@color/txt"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                style="@style/Widget.MaterialComponents.Chip.Filter"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

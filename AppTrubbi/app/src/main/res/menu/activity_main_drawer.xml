@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+            <item
+                android:id="@+id/home_item_menu"
+                android:icon="@drawable/ic_home"
+                android:title="home"></item>
+
+            <item
+                android:id="@+id/cuenta_item_menu"
+                android:icon="@drawable/ic_account"
+                android:title="account"></item>
+
+            <item
+                android:id="@+id/agendados_item_menu"
+                android:icon="@drawable/ic_event"
+                android:title="agendados"></item>
+
+
+            <item
+                android:id="@+id/historial_item_menu"
+                android:icon="@drawable/ic_history"
+                android:title="history"></item>
+
+            <item
+                android:id="@+id/favoritos_item_menu"
+                android:icon="@drawable/ic_favorite"
+                android:title="favoritos"></item>
+
+            <item
+                android:id="@+id/setting_item_menu"
+                android:icon="@drawable/ic_settings"
+                android:title="configuracion"></item>
+    </group>
+</menu>
+
+
+

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">App Trubbi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_trubbi">App Trubbi</string>
+
+    //Drawer
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="txt_foto_evento">Foto del Evento</string>
+
+    <!-- Events names  -->
+    <string-array name="event_array">
+        <item>Gastronomia</item>
+        <item>show</item>
+        <item>musica</item>
+        <item>danza</item>
+        <item>Choripaneada</item>
+        <item>CocinaVegana</item>
+        <item>FuegosArtificiales</item>
+        <item>Cocina</item>
+        <item>TEatro</item>
+        <item>Próximos</item>
+        <item>Públicos</item>
+        <item>pagos</item>
+    </string-array>
+</resources>
